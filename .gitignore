@@ -1,0 +1,10 @@
+# Ignore datasets
+*.csv
+
+# Ignore large fraud files specifically
+fraud_detection/fraudTrain.csv
+fraud_detection/fraudTest.csv
+
+# Python cache
+__pycache__/
+*.pyc
